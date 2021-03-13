@@ -20,11 +20,11 @@ int main() {
 	scanf("%s", b);
 	for (i=0;i<20;i++ )                                                // Complete the code in for
            { 
-		c[i] =b[i];                                              //Complete the statement
+		c[i] =a[i];                                              //Complete the statement
 	}
 	for (i=0;i<20;i++ )                                                 // Complete the code in for
            { 
-		c[i] =a[i] ;                                              //Complete the statement
+		c[i] =c[i]+b[i] ;                                              //Complete the statement
 	}
 	c[i]=a[i]+b[i] ;                                               //Complete the statement
 	printf("The concatenated string = %s%s",a,b );
